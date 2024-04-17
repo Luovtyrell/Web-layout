@@ -91,20 +91,25 @@ p {
   justify-content: center;
 }
 
- /* Pantalla Tablet*/
+ /* Pantalla Tablet */
 @media screen and (max-width: 820px) {
     .menuArriba {
       flex-flow: column nowrap;
     }
   
-    .logo,
-    .navArriba,
-    .social {
+    .logo, .navArriba, .social {
       flex: 1 0 auto;
       width: 100%;
     }
-  
+
     section {
-      flex-flow: column;
+      flex-flow: column nowrap;
     }
   }
+
+  /* Pantalla Mobil */
+@media screen and (max-width: 420px) {
+    .menuArriba, .section, .aside, .footer {
+        flex-flow: column nowrap;
+    }
+}
