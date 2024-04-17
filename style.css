@@ -1,0 +1,92 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.maquetacion {
+  display: flex;
+  flex-flow: column nowrap; /* Porque lo queremos en columna */
+  font-family: "Courier New", monospace;
+}
+
+header {
+  background: #2ecbaa;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menuArriba {
+  background: #caf729;
+  display: flex;
+  flex-flow: row nowrap;  /* Porque lo queremos en fila */
+  align-items: center;
+}
+
+.logo {
+  background: #79dd7e;
+  flex: auto;
+}
+
+.navArriba {
+  background: #79dd7e;
+  flex: 5 auto; /* .nav más ancho */
+}
+
+.social {
+  background-color: #79dd7e;
+  flex: auto;
+}
+
+.banner {
+  background: #21b6b6;
+}
+
+h1 {
+  background: palegreen;
+}
+
+section {
+  background: #fea611;
+  display: flex;
+}
+
+.articles {
+  background: #ff6f3c;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+article {
+  background: #ffff92;
+  flex: 1 1 40%;
+}
+
+.navAbajo {
+  background: #fed251;
+  flex: 1 1 100%;
+  display: flex;
+}
+
+aside {
+  background: #e84a5f;
+}
+
+.publicidad {
+  background: #ffe972;
+  flex: 2 1 auto;
+  display: flex;
+}
+
+footer {
+  background: #d0bbf9;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  background: #ffecff;
+  flex: 5 1 auto;
+  justify-content: center;
+}
