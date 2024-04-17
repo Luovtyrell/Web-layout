@@ -3,11 +3,14 @@
   padding: 10px;
   box-sizing: border-box;
 }
+body{
+    background: palegoldenrod;
+    font-family: "Courier New", monospace;
+}
 
 .maquetacion {
   display: flex;
   flex-flow: column nowrap; /* Porque lo queremos en columna */
-  font-family: "Courier New", monospace;
 }
 
 header {
@@ -105,11 +108,19 @@ p {
     section {
       flex-flow: column nowrap;
     }
+
+    body{
+        background: palegreen;
+    }
   }
 
   /* Pantalla Mobil */
 @media screen and (max-width: 420px) {
     .menuArriba, .section, .aside, .footer {
         flex-flow: column nowrap;
+    }
+
+    body{
+        background: palevioletred;
     }
 }
